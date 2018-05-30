@@ -1,0 +1,162 @@
+.App {
+    text-align: center;
+}
+
+.ui.modal {
+    left: 20%;
+}
+
+.ui.modal>.content>.icon+.description,
+.ui.modal>.content>.image+.description {
+    width: 60%;
+}
+
+.secondary a {
+    color: black;
+}
+
+.secondary a:hover {
+    color: #EB71A5;
+}
+
+.menuNav a.item:hover {
+    color: #EB71A5 !important;
+}
+
+.menuNav .ui.link.menu .item:active,
+.ui.menu .link.item:active,
+.ui.menu a.item:active {
+    background: none !important;
+    color: #EB71A5 !important;
+}
+
+.ui.secondary.menu .active.item {
+    background: none !important;
+    color: #EB71A5 !important;
+}
+
+a.item:hover {
+    background: none !important;
+    color: black !important;
+}
+
+h2 {
+    color: #32aaf2;
+    font-size: "2.714286rem";
+}
+
+h3 {
+    color: #5B386A;
+    font-size: "2.714286rem" !important;
+}
+
+.ui.vertical.menu {
+    height: 100%;
+}
+
+.perfil {
+    overflow: hidden;
+}
+
+.comienza {
+    height: 400px !important;
+    background-image: url("https://res.cloudinary.com/alinardz/image/upload/v1527379446/comienza.png");
+}
+
+.ui.header {
+    color: white !important;
+}
+
+#imgportada {
+    margin: 30px 10%!important;
+    width: 500px !important;
+}
+
+.ui.segment {
+    padding: 0em 1em !important;
+}
+
+.btncom {
+    padding-top: 200px;
+}
+
+.ui.inverted.menu .teal.active.item,
+.ui.inverted.teal.menu {
+    background-color: #4F4976 !important;
+}
+
+.cardCat {
+    background-color: #5F5D83;
+}
+
+.card1 {
+    background-color: #EF85AB;
+}
+
+.card--alt-2 {
+    background-color: #C2C1AB;
+}
+
+.card--alt-3 {
+    background-color: #8DADAA;
+}
+
+.card--alt-4 {
+    background-color: #2A4E6E;
+}
+
+.cardCat p {
+    position: relative;
+    top: 50%;
+    margin: 0 2rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    transform: translateY(-50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.card__circle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.2;
+    transition: all 0.4s ease-in-out;
+}
+
+.cardCat {
+    display: inline-block;
+    flex: 1;
+    position: relative;
+    min-width: 300px;
+    height: 10rem;
+    margin: .1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+}
+
+.cardCat:hover i {
+    transform: scale(70);
+    opacity: 0.8;
+}
+
+.cardCat:hover {
+    color: #45556E;
+}
+
+.containerBlog {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: stretch;
+    margin: 0 10%;
+}
+
+.diagnostico {
+    height: 200px;
+}
